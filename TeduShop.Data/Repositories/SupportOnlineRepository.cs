@@ -12,7 +12,7 @@ namespace TeduShop.Data.Repositories
     {
 
     }
-    public class SupportOnlineRepository : RepositoryBase<Product>, ISupportOnlineRepository
+    public class SupportOnlineRepository : RepositoryBase<SupportOnline>, ISupportOnlineRepository
     {
         public SupportOnlineRepository(IDbFactory dbFactory) : base(dbFactory)
         {
